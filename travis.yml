@@ -1,4 +1,16 @@
 language: java
 jdk: oraclejdk8
 install: true
-script: gradle clean check build
+addons:
+  sonarcloud:
+    organization: "jbelcher-riis-github"
+    token:
+      secure: "7e666881862b43888881388d96c0e850dc93fceb"
+script:
+  - ./gradlew clean check sonarqube build
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.sonar/cache'
+    - '$HOME/.gradle'
+    - '.gradle'
