@@ -5,7 +5,7 @@ addons:
   sonarcloud:
     organization: jbelcher-riis-github
     token:
-      secure: RhSDChh1Cb2LFJZOHrJRMmQRPkb7np8iluStSkfFpgk1kdqQXVKGJGsNyUjUJ03L8sZeBOoyIGT0bYz9ob7AHUSDZ70aP5E1A5qnzz+8P4kO6n76JBX5XE7Y2DZPULto++EKBTZ7lxJraX7D/+96m80G2vICayahLNgItC4wjZH5dRwidi7hQ3pZkOJmYHAKXGnVUBfjLNC2KfPutiqO0i1bbY/Kz6zBAf/d6llfuIgJA/XSnsQ5f/7LHYbiDCGmoBcJMUbbv06VoVWw0ts6V+GLyp1gnLXqYrlfRqN+HwLx3uy6cfgyCoio0PPbml/CqkFGh/aqSq3tgn1fR8vyP1o2NZ/NfgKW6ne4SPf7mlAsy3ymNELGmXjV+CN7OM47Ga/lB4FiZAKWiGwrDaadfkQShb1RqOY1qNOHYfS3vd50V5ZTLHo+O4LNhBwRilgdq69oJpqReuOVOAZ40pGDH3kTg+nUI4wqbzI/hFN0nlye/C5/SLFeEEKdaKzljFDQ2TXk1I5JCNHW/GvLF3DiaE8+Y8MhR4psE8RYil5Ob7cRsTgCJRg7NByA02UbzvAQtYb2ApRldozlJHShQMPnWqCpP71j3RSsZHs14wXL0ykJG7m+RGrIoHm/UxZBrHke2QwIGbDYKx8OZiS99pbFa79qKVRSMY1v6a7fIpOI0Ds=
+      secure: 7e666881862b43888881388d96c0e850dc93fceb
 script:
 - ./gradlew clean check sonarqube build --stacktrace
 cache:
