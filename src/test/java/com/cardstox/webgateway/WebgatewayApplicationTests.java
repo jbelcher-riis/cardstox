@@ -12,5 +12,8 @@ public class WebgatewayApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+	
+	@Test
+	public void testTest() {}
 
 }
