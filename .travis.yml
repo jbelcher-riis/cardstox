@@ -7,7 +7,7 @@ addons:
     token:
       secure: 7e666881862b43888881388d96c0e850dc93fceb
 script:
-- ./gradlew clean check jacoco sonarqube build --stacktrace
+- ./gradlew clean check jacocoTestReport sonarqube build --stacktrace
 cache:
   directories:
   - $HOME/.m2/repository
